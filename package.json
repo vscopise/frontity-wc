@@ -1,0 +1,27 @@
+{
+  "name": "frontity-wc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontity project",
+  "keywords": [
+    "frontity"
+  ],
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@frontity/core": "^1.7.1",
+    "@frontity/html2react": "^1.3.4",
+    "@frontity/mars-theme": "./packages/mars-theme",
+    "@frontity/tiny-router": "^1.2.1",
+    "@frontity/wp-source": "^1.8.0",
+    "frontity": "^1.9.0",
+    "frontity-wc-theme": "file:packages/frontity-wc-theme",
+    "react-icons": "^3.10.0",
+    "react-intersection-observer": "^8.26.2",
+    "react-spring": "^8.0.27"
+  }
+}
